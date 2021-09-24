@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/720172137f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Uday Girhepunje</title>
+</head>
+<body>
+    <header>
+        <!-- ***************** navbar ********************** -->
+        
+        <section class="navbar">
+            <nav class="topnav" id="myTopnav">
+                <a class="page-title" href="#">Uday Girhepunje</a>
+                <ul class="links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Certificates</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </section>
+        
+        <!-- ************* landing page *****************************-->
+        
+        <section class="image-holder">
+            <h1 class="big-title" data-speed="0">Hi<span class="span1">,</span> I am<br>a Web Developer<span>.</span></h1>
+            
+            <img src="images/background.png" class="background translate" data-speed="0.1" alt="">
+            <img src="images/layer.png" class="mountain translate" data-speed="-0.2" alt="">
+            <img src="images/foreground.png" class="foreground translate" data-speed="-0.25" alt="">
+            
+        </section>
+    </header>
+    
+    <!--******************** about me  **************************-->
+
+    <section class="about translate" data-speed="-0.25" id="about">
+        <div class="text">
+            <h2>About me</h2>
+            <p>I am a computer engineering student passionate about Web Development and Graphics Design. I often make graphics and put them together with best possible typography and colors and result is a beautiful website.</p>
+        </div>
+        <div class="image">
+            <img src="images/uday.png" alt="">
+        </div>
+    </section>
+
+    <!--***************** projects *******************************-->
+
+    <section class="projects" id="projects">
+
+        <h2>Projects</h2>
+        <div class="slideshow-container fade">
+        
+            
+            <div class="Containers">
+                <div class="MessageInfo">1 / 4</div>
+                <img src="images/covid-diagnosis-bot.png" style="width:100%">
+                <div class="Info">A Web app for Diagnosing covid-19. it can tell you weather you should go to doctor (risking infection) or not, made as a PBL project in SE.</div>
+            </div>
+        
+            <div class="Containers">
+                <div class="MessageInfo">2 / 4</div>
+                <img src="images/portfolio.png" style="width:100%">
+                <div class="Info">My very first Portfolio website, tried to use Glassmorphism in this one.</div>
+            </div>
+        
+            <div class="Containers">
+                <div class="MessageInfo">3 / 4</div>
+                <img src="images/animeto.png" style="width:100%">
+                <div class="Info">This website was made for an competition Animeto Web Design, made in 24 hours.</div>
+            </div>
+
+            <div class="Containers">
+                <div class="MessageInfo">4 / 4</div>
+                <img src="images/designers.png" style="width:100%">
+                <div class="Info">The official website for Designers club MESCOE, work in progress.</div>
+            </div>
+        
+           
+            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        
+        <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+
+    <!-- ******************** contact ************************ -->
+
+    <section class="contact" id="contact">
+        <h2>Let's get in contact <span> !</span></h2>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/uday_699/" target=”_blank”><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/mrcoder991" target=”_blank”><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/uday-girhepunje-6958a21b8/" target=”_blank”><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/UdayGirhepunje" target=”_blank”><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009394355759" target=”_blank”><i class="fa fa-facebook"></i></a>
+        </div>
+
+    </section>
+
+    <!-- **************** footer ********************-->
+
+    <section>
+        <footer>
+            <p>Designed with &#10084;&#65039 by <a href="https://github.com/mrcoder991">@mrcoder991</a></p>
+            <p>all rights reserved</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
