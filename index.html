@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/720172137f.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -19,13 +18,13 @@
         <section class="navbar">
             <nav class="topnav" id="myTopnav">
                 <a class="page-title" href="#">Uday Girhepunje</a>
-                <ul class="links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#">Certificates</a></li>
+                <ul class="links" id="links">
+                    <li><a href="#about" id="main" onclick="closeNav()">About</a></li>
+                    <li><a href="#projects" id="main" onclick="closeNav()">Projects</a></li>
+                    <li><a href="#contact" id="main" onclick="closeNav()">Contact</a></li>
+                    <li><a href="#" id="main" onclick="closeNav()">Certificates</a></li>
                 </ul>
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -59,60 +58,70 @@
 
     <!--***************** projects *******************************-->
 
-    <section id="projects" class="projects">
+    <section id="projects" class="projects flex-container">
         <h2>Projects</h2>
+            <div class="projects-container flex-container">
+                
+                <!-- **** Card1 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Car Showcase</h3>
+                        <p>A highly responsive website for showcasing a car's specifications (in this case ford mustang), an attempt to win Web decor organized by ACE MESCOE</p>
+                        <a href="https://github.com/mrcoder991/Car-Showcase-Web-decor-2021" title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://udaygirhepunje.me/Car-Showcase-Web-decor-2021/"title="View Project Demo" target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <!-- **** Card2 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Animeto Food</h3>
+                        <p>Animeto food is a website for a food delivery business. Which was made from scratch, it was competition in which we had to write CSS for given HTML file</p>
+                        <a href="https://github.com/mrcoder991/AnimetoWebDesign2" title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://udaygirhepunje.me/AnimetoWebDesign2/"title="View Project Demo" target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- **** Card3 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Personal Portfolio</h3>
+                        <p>This was my first portfolio as well as my first project in web development journey. Got so much to learn in this project. It was like Kickstarter to my journey.</p>
+                        <a href="https://github.com/mrcoder991/MyPortfolio" title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://udaygirhepunje.me/MyPortfolio"title="View Project Demo" target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- **** Card4 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Designers Club</h3>
+                        <p>“dcmescoe.tech” the official website of Designer’s Club MESCOE, this was my first collaboration project and I have worked on the frontend of this website.</p>
+                        <a href="https://github.com/Designers-Club-MESCOE/Designers-Club-MESCOE.github.io" title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://dcmescoe.tech"title="View Project Demo" target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- **** Card5 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Covid Diagnosis</h3>
+                        <p>It was made as 2nd year PBL project, made in “flask” as backend, it can suggest users weather or not they should go to doctor if they are sick.</p>
+                        <a href="https://github.com/mrcoder991/Covid-Diagnosis-app" title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://covid-diagnosis-app.herokuapp.com/"title="View Project Demo" target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- **** Card6 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Merchstore</h3>
+                        <p>In the internship “Future ready talent” I had to make this Ecommerce site which is made with JavaScript and jQuery, hosted on Azure as a static webapp.</p>
+                        <a href="https://github.com/mrcoder991/MerchStore-EcommerceWebsite" title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://gentle-water-086875c00.1.azurestaticapps.net"title="View Project Demo" target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/covid-diagnosis-bot.png" class="d-block w-100" alt="covid-diagnosis-bot">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Covid Diagnosis app</h5>
-                        <p>A Web app for Diagnosing covid-19. it can tell you weather you should go to doctor (risking infection) or not, made as a
-                        PBL project in SE.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/portfolio" class="d-block w-100" alt="portfolio">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Persnoal Portfolio</h5>
-                        <p>My very first Portfolio website, tried to use Glassmorphism in this one.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animeto.png" class="d-block w-100" alt="animeto">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Animeto food website</h5>
-                        <p>This website was made for an competition Animeto Web Design, made in 24 hours.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/designers" class="d-block w-100" alt="animeto">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Designers Club website</h5>
-                        <p>The official website for Designers club MESCOE, work in progress.</p>
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
     </section>
 
     <!-- ******************** contact ************************ -->

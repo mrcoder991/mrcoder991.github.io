@@ -1,15 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.html{
-    scroll-behavior: smooth !important;
+
+
+:root {
+  --primary-accent: #fd9a63;
+  --secondary-accent: #ecd8c4;
+  --backround-1: #1c1527;
+  scroll-behavior: smooth;
 }
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body{
+  background-color: var(--backround-1);
+}
+
+
+::-webkit-scrollbar{
+	width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track{
+	border: 4px solid var(--backround-1);
+	background-color: #37294d;
+  margin: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: var(--primary-accent);
+	border-radius: 12px;
+}
+
+
 
 /* *********************** navbar css ***************** */
 
@@ -25,8 +60,17 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--secondary-accent);
+  border-radius: 50vh;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
 }
+
+.links a:hover {
+  color: black;
+  background-color: var(--primary-accent);
+}
+
 nav .page-title {
   letter-spacing: 2px;
   font-weight: 700;
@@ -51,15 +95,10 @@ nav .links a {
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #bfdcec;
+  transition: 0.3s ease-in-out;
+  background-color: var(--secondary-accent);
 }
 
-.links a:hover {
-  color: black;
-  border-radius: 50vh;
-  background-color: white;
-}
 @media only screen and (max-width: 680px) {
   .hamburger {
     display: block;
@@ -72,19 +111,18 @@ nav .links a {
     height: 100vh;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #1C1527;
+    background-color: #1c1527;
     width: 100%;
-    padding:20% 30%;
+    padding: 20% 0;
     transition: 0.3s;
   }
-  
+
   nav li a {
-    display: block;
-    color: #FD9A63;
+    display: inline-block;
+    color: #fd9a63;
     text-align: center;
     width: 100%;
     font-size: 2em;
-    
   }
   nav a:hover {
     color: #d6f0ff;
@@ -92,12 +130,12 @@ nav .links a {
   .links.active {
     right: 0px;
   }
-  
-  .hamburger.active{
-      position: fixed;
-      right: 0px;
-      padding-right: 5%;
-    }
+
+  .hamburger.active {
+    position: fixed;
+    right: 0px;
+    padding-right: 5%;
+  }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -113,159 +151,314 @@ nav .links a {
 
 /* ********************** main homepage *********************** */
 
-.image-holder{
-    height: 100vh;
+.image-holder {
+  height: 100vh;
 }
 
-.image-holder img{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+.image-holder img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
-.big-title{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    text-align: left;
-    font-size: 3rem;
-    font-weight: 600;
-    z-index: 2;
-    color: #fff;
+.big-title {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 600;
+  z-index: 2;
+  color: var(--secondary-accent);
 }
 
-span{
-    color:#FC9C60 ;
-    font-size: 1.5em;
+span {
+  color: #fc9c60;
+  font-size: 1.5em;
 }
-.span1{
-    color:#ED4A8D !important ;
-}
-
-.about{
-    width: 100%;
-    margin-top: -20px;
-    min-height: 100vh;
-    background-color: #1C1527;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
-    align-items: center;
+.span1 {
+  color: #ed4a8d !important ;
 }
 
-.about h2{
-  color: #ecd8c4;
+/* ************************* About css *************************** */
+
+.about {
+  width: 100%;
+  margin-top: -20px;
+  min-height: 100vh;
+  background-color: #1c1527;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.about p{
+.about h2 {
+  color: var(--secondary-accent);
+}
+
+.about p {
   color: #c5844e;
 }
- 
 
-.about .text{
-    width: 40%;
-    min-width: 300px;
-    padding: 1em;
-    font-size: 1.5em
+.about .text {
+  width: 40%;
+  min-width: 300px;
+  padding: 1em;
+  font-size: 1.5em;
 }
 .about .image {
-    display: flex;
-    min-width: 300px;
-    width: 40%;
-    justify-content: center;
+  display: flex;
+  min-width: 300px;
+  width: 40%;
+  justify-content: center;
 }
 
-.image img{
-    width: 80%;
-    border-radius: 50%;
-}
-
-@media only screen and (max-width: 680px){
-    .about .text{font-size: 1.2em;}
-}
-
-/* ****************** projects carosual css **************** */
-.projects {
+.image img {
   width: 80%;
-  margin:5% auto;
-  margin-top: -13em;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 680px) {
+  .about .text {
+    font-size: 1.2em;
+  }
+  .about{
+    gap: 1rem;
+     max-height: 100vh;
+  }
+}
+
+/* ****************** projects css **************** */
+.projects {
+  margin-top: -10.5em;
+  background-color: #1c1527;
+  padding-bottom: 2em;
 }
 .projects h2 {
   text-align: center;
   padding: 1em;
   font-size: 3em;
+  color: var(--secondary-accent);
 }
-@media only screen and (max-width: 680px){
+
+.projects-container{
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 80%;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: flex-start;
+}
+
+.project-card:nth-child(1){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase_45RqK5emV3Ia.gif") ;
+}
+.project-card:nth-child(2){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animeto_food_iHxRsfI6W0J.gif") ;
+}
+.project-card:nth-child(3){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/portfolio_2MqdUKjgE6f.gif") ;
+}
+.project-card:nth-child(4){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/designers_club_XrH_QKzI17i.gif") ;
+}
+.project-card:nth-child(5){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/Covid_wo4mhRwIwBH.gif") ;
+}
+.project-card:nth-child(6){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/merchstore_tLvHh9Hunop.gif") ;
+}
+
+.project-card {
+  /* background-image: url("images/car_showcase.gif"); */
+  background-size: cover;
+  background-position: center;
+  padding: 13em 0 0;
+  border-radius: 1em;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  min-width: 300px;
+  min-height: 405px;
+}
+
+@media only screen and (max-width: 680px) {
+  .projects-container{
+    width: 95%;
+    padding: 1rem;
+  }
   .projects{
-    width: 100%;
+    margin-top: -15em;
   }
 }
 
-/* ******************** contact me css ********************* */
-
-.contact{
-    padding: 2em;
-    height: 70vh;
-    width: 100%;
-    text-align: center;
-    font-size: 2em;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.project-card:hover {
+  transform: scale(1.02);
 }
 
-
-.contact i{
-    color: white;
-    font-size: 2.5em;
-    padding:5% 3%;
-    transition: all 0.3s ease-in;
+.project-details p {
+  width: 32ch;
+  padding: 1em 0;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  color: rgba(236, 216, 196, 0.8);
+  font-weight: 500;
 }
 
-.contact div:hover i{
-    color:#8c5838 ;
+.project-details a {
+  text-decoration: none;
+  padding: 0.3em 0.4em;
+  display: inline-block;
+  border: 1px solid var(--primary-accent);
+  background-color: var(--primary-accent);
+  border-radius: 50vh;
+  font-size: 0.8em;
+  color: #1c1527;
+  font-weight: 550;
+  transition: all 0.5s ease-out;
 }
 
-.contact a:hover i{
-    color: #FC9C60;  
-} 
+.project-details a:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.project-details {
+  --padding: 1.5em;
+  padding: var(--padding);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.535) 17%,
+    rgb(0, 0, 0)
+  );
+  color: #fff;
+}
+
+.project-details h3::after {
+  content: " ";
+  position: absolute;
+  width: calc(100% + var(--padding));
+  height: 4px;
+  background-color: var(--primary-accent);
+  bottom: -5px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+  left: calc(var(--padding) * -1);
+}
 
 @media only screen and (max-width: 680px){
-    .contact i{font-size: 1em;}
-    .contact h2{font-size: 1.3em;}
-    .contact{padding: 2em 1em;}
+  .project-details h3{
+    display: inline-block;
+    border-bottom: 4px solid var(--primary-accent) ;
+  }
+}
+
+@media (hover) {
+  .project-details {
+    transform: translateY(63%);
+    transition: transform 0.5s ease;
+  }
+  .project-card:hover .project-details {
+    transform: translateY(0);
+    transition-delay: 0.5s;
+  }
+
+  .project-details > *:not(h3) {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+  .project-card:hover .project-details > *:not(h3) {
+    opacity: 1;
+    transition-delay: 0.8s;
+  }
+
+  .project-details h3 {
+    position: relative;
+    display: inline;
+    /* width: max-content; */
+    font-size: 1.5em;
+  }
+  .project-details h3::after{
+    transform: scaleX(0);
+  }
+}
+
+.project-card:hover .project-details h3::after{
+  transform: scaleX(1);
+}
+
+
+/* ******************** contact me css ********************* */
+
+.contact {
+  padding: 2em;
+  height: 70vh;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  background-color: black;
+  color: var(--secondary-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact i {
+  color: var(--secondary-accent);
+  font-size: 2.5em;
+  padding: 5% 3%;
+  transition: all 0.3s ease-in;
+}
+
+.contact div:hover i {
+  color: #8c5838;
+}
+
+.contact a:hover i {
+  color: #fc9c60;
+}
+
+@media only screen and (max-width: 680px) {
+  .contact i {
+    font-size: 1em;
+  }
+  .contact h2 {
+    font-size: 1.3em;
+  }
+  .contact {
+    padding: 2em 1em;
+  }
 }
 
 /* **************** footer css ******************** */
 
-footer{
+footer {
   height: 30vh;
-  background-color: #1C1527;
+  background-color: #1c1527;
   text-align: center;
   font-size: 1.5em;
-  color: #ecd8c4;
+  color: var(--secondary-accent);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-footer a{
+footer a {
   color: #ea7d10;
   text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
   color: #ffb367;
 }
 
-@media only screen and (max-width: 680px){
-    footer p{font-size: 0.5em;}
+@media only screen and (max-width: 680px) {
+  footer p {
+    font-size: 0.5em;
+  }
 }
-
-
-

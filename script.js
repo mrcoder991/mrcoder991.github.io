@@ -7,7 +7,15 @@ const hamburger = document.querySelector(".hamburger");
             hamburger.classList.toggle("active");
             links.classList.toggle("active");
         }
+
+
+
+function closeNav() {
+    document.getElementById("hamburger").classList.remove("active");
+    document.getElementById("links").classList.remove("active");
+}
         
+
 const translate = document.querySelectorAll(".translate");
 const big_title = document.querySelector(".big-title");
 const header = document.querySelector("header");
