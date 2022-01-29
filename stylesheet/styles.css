@@ -5,7 +5,7 @@
 :root {
   --primary-accent: #fd9a63;
   --secondary-accent: #ecd8c4;
-  --backround-1: #1c1527;
+  --background-1: #1c1527;
   scroll-behavior: smooth;
 }
 
@@ -24,7 +24,7 @@
 }
 
 body{
-  background-color: var(--backround-1);
+  background-color: var(--background-1);
 }
 
 
@@ -34,7 +34,7 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-	border: 4px solid var(--backround-1);
+	border: 4px solid var(--background-1);
 	background-color: #37294d;
   margin: 5px;
 }
@@ -238,7 +238,9 @@ span {
   background-color: #1c1527;
   padding-bottom: 2em;
 }
+
 .projects h2 {
+  width: 100%;
   text-align: center;
   padding: 1em;
   font-size: 3em;
@@ -255,7 +257,7 @@ span {
 }
 
 .project-card:nth-child(1){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase_45RqK5emV3Ia.gif") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase.gif") ;
 }
 .project-card:nth-child(2){
   background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animeto_food_iHxRsfI6W0J.gif") ;
@@ -391,6 +393,102 @@ span {
 .project-card:hover .project-details h3::after{
   transform: scaleX(1);
 }
+
+
+/* ***************** Experience Css ******************* */
+
+.experince {
+  margin: 0;
+  padding: 0 4em;
+  background: linear-gradient(230deg, #005c6f, #650054);
+  animation: gradient-animation 5s ease infinite;
+  background-size: 200% 200%;
+}
+
+.experince h2{
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 3em;
+  color:var(--secondary-accent);
+}
+
+.experince h5{
+  color: var(--primary-accent);
+}
+.experince p{
+  color: #afa194;
+}
+
+.experince-container{
+  min-width: 300px;
+  max-width: 700px;
+  margin: auto;
+  
+}
+
+@keyframes gradient-animation {
+  0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.exp {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 20px solid;
+  border-image: linear-gradient(to right,#8dcae2  0%,#c77ad6  100%);
+  border-image-slice: 1;
+  border-width: 5px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: var(--secondary-accent);
+}
+.exp:before {
+  content: counter(section);
+  position: absolute;
+  border-radius: 50%;
+  padding: 3px;
+  height: 2em;
+  width: 2em;
+  background-color: var(--primary-accent);
+  text-align: center;
+  line-height: 2em;
+  color: #000;
+  font-size: 1em;
+}
+.exp:nth-child(odd) {
+  border-right: 5px solid;
+  padding-left: 0;
+  text-align: left;
+}
+.exp:nth-child(odd):before {
+  left: 100%;
+  margin-left: -17px;
+}
+.exp:nth-child(even) {
+  border-left: 5px solid;
+  padding-right: 0;
+  text-align: right;
+}
+.exp:nth-child(even):before {
+  right: 100%;
+  margin-right: -17px;
+}
+div:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.exp:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+/* ********************* skills css ************************* */
 
 
 /* ******************** contact me css ********************* */
