@@ -487,6 +487,15 @@ div:first-child {
   border-bottom-left-radius: 0;
 }
 
+@media only screen and (max-width: 680px){
+  .experince{
+    padding: 0 1.5em;
+  }
+  .experince h2{
+    padding: 1em 0;
+  }
+}
+
 
 /* ********************* skills css ************************* */
 
