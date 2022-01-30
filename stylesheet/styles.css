@@ -276,7 +276,6 @@ span {
 }
 
 .project-card {
-  /* background-image: url("images/car_showcase.gif"); */
   background-size: cover;
   background-position: center;
   padding: 13em 0 0;
@@ -284,7 +283,7 @@ span {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   min-width: 300px;
-  min-height: 405px;
+  /* min-height: 405px; */
 }
 
 @media only screen and (max-width: 680px) {
@@ -400,7 +399,7 @@ span {
 .experince {
   margin: 0;
   padding: 0 4em;
-  background: linear-gradient(230deg, #005c6f, #650054);
+  background: linear-gradient(260deg, #006f60,#12006f, #65003b);
   animation: gradient-animation 5s ease infinite;
   background-size: 200% 200%;
 }
@@ -458,6 +457,7 @@ span {
   line-height: 2em;
   color: #000;
   font-size: 1em;
+  font-weight: 600;
 }
 .exp:nth-child(odd) {
   border-right: 5px solid;
@@ -477,7 +477,7 @@ span {
   right: 100%;
   margin-right: -17px;
 }
-div:first-child {
+.exp:first-child {
   border-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -498,16 +498,62 @@ div:first-child {
 
 
 /* ********************* skills css ************************* */
+.skills h2{
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 3em;
+  color: var(--secondary-accent);
+}
+
+.skills-container{
+  color: var(--background-1);
+  text-align: center;
+  gap: 2em;
+  max-width: 900px;
+  padding: 0 0 3em;
+ 
+}
+
+.skills-container i{
+  color: var(--background-1);
+  font-size: 4em;
+  padding: 0.5em;
+  
+}
+
+.skill-card{
+  min-width: 170px;
+  max-height: 300px;
+  border-radius: 1em;
+  padding:0 1em 1em;
+  background-color: var(--primary-accent);
+  transition: all 0.4s ease-in-out ;
+}
+.skill-card:hover{
+  color: var(--primary-accent);
+  background-color: #2b2730;
+}
+
+.skill-card:hover i{
+  color: var(--primary-accent);
+}
+
+@media only screen and (max-width: 680px){
+  .skills-container{
+    gap: 1em;
+  }
+}
 
 
 /* ******************** contact me css ********************* */
 
 .contact {
   padding: 2em;
-  height: 70vh;
+  height: 50vh;
   width: 100%;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
   background-color: black;
   color: var(--secondary-accent);
   display: flex;
@@ -545,10 +591,10 @@ div:first-child {
 /* **************** footer css ******************** */
 
 footer {
-  height: 30vh;
+  height: 20vh;
   background-color: #1c1527;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: var(--secondary-accent);
   display: flex;
   flex-direction: column;
@@ -556,12 +602,12 @@ footer {
   align-items: center;
 }
 footer a {
-  color: #ea7d10;
+  color: var(--primary-accent);
   text-decoration: none;
 }
 
 footer a:hover {
-  color: #ffb367;
+  color: #facda1;
 }
 
 @media only screen and (max-width: 680px) {
