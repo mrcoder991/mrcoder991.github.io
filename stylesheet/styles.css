@@ -16,17 +16,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 body{
   background-color: var(--background-1);
 }
 
+::selection {
+  background: var(--primary-accent);
+  color: var(--background-1);
+}
 
 ::-webkit-scrollbar{
 	width: 12px;
@@ -44,7 +41,12 @@ body{
 	border-radius: 12px;
 }
 
-
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 /* *********************** navbar css ***************** */
 
