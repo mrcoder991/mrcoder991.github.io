@@ -48,6 +48,13 @@ body{
   flex-wrap: wrap;
 }
 
+.section-heading{
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 3em;
+  color: var(--secondary-accent);
+}
 /* *********************** navbar css ***************** */
 
 nav {
@@ -241,13 +248,7 @@ span {
   padding-bottom: 2em;
 }
 
-.projects h2 {
-  width: 100%;
-  text-align: center;
-  padding: 1em;
-  font-size: 3em;
-  color: var(--secondary-accent);
-}
+
 
 .projects-container{
   flex-wrap: nowrap;
@@ -406,13 +407,7 @@ span {
   background-size: 200% 200%;
 }
 
-.experince h2{
-  width: 100%;
-  text-align: center;
-  padding: 1em;
-  font-size: 3em;
-  color:var(--secondary-accent);
-}
+
 
 .experince h5{
   color: var(--primary-accent);
@@ -550,9 +545,8 @@ span {
 
 /* ******************** contact me css ********************* */
 
-.contact {
+/* .contact {
   padding: 2em;
-  height: 50vh;
   width: 100%;
   text-align: center;
   font-size: 1.5em;
@@ -582,11 +576,217 @@ span {
   .contact i {
     font-size: 1em;
   }
-  .contact h2 {
+  .contact-section h2 {
     font-size: 1.3em;
   }
   .contact {
     padding: 2em 1em;
+  }
+} */
+
+.contact-section{
+  color: var(--secondary-accent);
+  flex-direction: column;
+  
+}
+.contact-holder{
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  
+}
+
+.contact-details{
+  width: 40%;
+  min-width: 400px;
+  padding: 1em;
+  max-width: 500px;
+}
+
+.contact-details i {
+  color: var(--primary-accent);
+  padding: 0.5em;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in;
+}
+
+.contact-details a{
+  text-decoration: none;
+  color: var(--secondary-accent);
+  font-size: 1em;
+  pointer-events: none;
+  
+}
+
+.icons{
+  padding: 0.5em;
+  display: flex;
+  gap: 1em;
+  pointer-events: all;
+}
+
+.icons i{
+  color: var(--secondary-accent);
+  font-size: 2em;
+  padding: 0;
+  pointer-events: all;
+}
+
+.contact-details div:hover i {
+  color: #8c5838;
+}
+
+.contact-details a:hover i {
+  color: #fc9c60;
+}
+
+.contact-form{
+  width: 40%;
+  padding: 1em;
+  max-width: 500px;
+
+}
+
+.input-div{
+  position: relative;
+  border-bottom: 2px solid var(--secondary-accent);
+  margin: 30px 0;
+}
+.input-div input{
+  width: 100%;
+  padding: 0 5px;
+  color: var(--secondary-accent);
+  height: 2em;
+  font-size: 1em;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.input-div textarea{
+  width: 100%;
+  padding: 0px 7px;
+  margin-top: 10px;
+  color: var(--secondary-accent);
+  font-size: 1em;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.input-div label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: var(--secondary-accent);
+  transform: translateY(-50%);
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition:"color 9999s ease-out, background-color 9999s ease-out";
+  transition-delay: 9999s;
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+textarea{
+  resize: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-div span::before{
+  content: '';
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--primary-accent);
+  transition: .5s;
+}
+
+.input-div .textarea-span::before{
+  content: '';
+  position: absolute;
+  top: 109px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--primary-accent);
+  transition: .5s;
+}
+
+.input-div input:focus ~ label,
+.input-div input:valid ~ label,
+.input-div textarea:focus ~ label,
+.input-div textarea:not(:placeholder-shown) ~ label{
+  top: -5px;
+  color: var(--primary-accent);
+  font-size: 0.8em;
+}
+
+.input-div input:focus ~ span::before,
+.input-div input:valid ~ span::before{
+  width: 100%;
+}
+
+.input-div textarea:focus ~ span::before,
+.input-div textarea:not(:placeholder-shown) ~ span::before{
+  width: 100%;
+}
+
+/* .pass{
+  margin: -5px 0 20px 5px;
+  cursor: pointer;
+}
+
+.pass:hover{
+  text-decoration: underline;
+} */
+
+button{
+  width: 10rem;
+  height: 50px;
+  border: 1px solid;
+  background: var(--primary-accent);
+  border-radius: 25px;
+  font-size: 18px;
+  color: var(--background-1);
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: var(--secondary-accent);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 930px){
+  .contact-details{
+    width: 100%;
+    padding: 2em;
+    font-size: 0.7em;
+  }
+  .contact-form{
+    width: 100%;
+    padding: 2em;
   }
 }
 
@@ -614,6 +814,9 @@ footer a:hover {
 
 @media only screen and (max-width: 680px) {
   footer p {
-    font-size: 0.5em;
+    font-size: 0.7em;
+  }
+  footer{
+    height: 10vh;
   }
 }
