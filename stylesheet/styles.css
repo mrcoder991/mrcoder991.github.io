@@ -673,15 +673,23 @@ span {
   outline: none;
 }
 
-.input-div label{
+.input-div label:not(.textarea-label){
   position: absolute;
   top: 50%;
   left: 5px;
-  color: var(--secondary-accent);
   transform: translateY(-50%);
   font-size: 1em;
   pointer-events: none;
   transition: .5s;
+}
+
+.textarea-label{
+  position: absolute;
+  top: 80%;
+  left: 5px;
+  transition: .5s;
+  pointer-events: none;
+  transform: translateY(-50%);
 }
 
 input:-webkit-autofill,
@@ -794,7 +802,7 @@ input[type=number] {
 
 footer {
   height: 20vh;
-  background-color: #1c1527;
+  background-color: #0e0c0c;
   text-align: center;
   font-size: 1.2em;
   color: var(--secondary-accent);
