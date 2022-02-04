@@ -568,7 +568,7 @@ span {
 
 .contact-details{
   width: 40%;
-  min-width: 400px;
+  /* min-width: 350px; */
   padding: 1em;
   max-width: 500px;
 }
