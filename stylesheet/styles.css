@@ -304,7 +304,7 @@ span {
 
 .snaps-inline{
   scroll-snap-type: inline mandatory;
-  /* scroll-padding-inline: 1.8rem; */
+  scroll-padding-inline: 1rem;
 }
 
 .snaps-inline > *{
