@@ -281,8 +281,10 @@ span {
   }
   .about{
     gap: 1rem;
-     max-height: 100vh;
+     /* max-height: 100vh; */
+    align-content: center;
   }
+
 }
 
 /* ****************** projects css **************** */
