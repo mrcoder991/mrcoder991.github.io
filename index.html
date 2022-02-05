@@ -14,333 +14,315 @@
 </head>
 
 <body>
-    <header>
+    <div class="body-div">
 
-        <!-- ***************** navbar ********************** -->
+         <!-- ************* landing page *****************************-->
+        <section class="image-holder snap-item">
+                <h1 class="big-title" data-speed="0">Hi<span class="span1">,</span> I am<br>a Web
+                    Developer<span>.</span>
+                </h1>
 
-        <section class="navbar">
-            <nav class="topnav" id="myTopnav">
-                <a class="page-title" href="#">Uday Girhepunje</a>
-                <ul class="links" id="links">
-                    <li><a href="#about" id="main" onclick="closeNav()">About</a></li>
-                    <li><a href="#projects" id="main" onclick="closeNav()">Projects</a></li>
-                    <li><a href="#experince" id="main" onclick="closeNav()">Experience</a></li>
-                    <li><a href="#skills" id="main" onclick="closeNav()">Skills</a></li>
-                    <li><a href="#contact" id="main" onclick="closeNav()">Contact</a></li>
-                </ul>
-                <div class="hamburger" id="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+                <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/background" class="background translate"
+                    data-speed="0.1" alt="">
+                <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/layer.png" class="mountain translate"
+                    data-speed="-0.2" alt="">
+                <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/foreground.png" class="foreground translate"
+                    data-speed="-0.25" alt="">
+            </section>
+
+        <header class="snap-item">
+
+            <!-- ***************** navbar ********************** -->
+            <section class="navbar">
+                <nav class="topnav" id="myTopnav">
+                    <a class="page-title" href="#">Uday Girhepunje</a>
+                    <ul class="links" id="links">
+                        <li><a href="#about" id="main" onclick="closeNav()">About</a></li>
+                        <li><a href="#projects" id="main" onclick="closeNav()">Projects</a></li>
+                        <li><a href="#experince" id="main" onclick="closeNav()">Experience</a></li>
+                        <li><a href="#skills" id="main" onclick="closeNav()">Skills</a></li>
+                        <li><a href="#contact" id="main" onclick="closeNav()">Contact</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </section>
+
+        </header>
+
+        <!--******************** about me  **************************-->
+        <section class="about translate snap-item" data-speed="-0.25" id="about">
+            <div class="text">
+                <h2>About me</h2>
+                <p>I am a computer engineering student passionate about Web Development and Graphics Design. I often
+                    make
+                    graphics and put them together with best possible typography and colors and result is a beautiful
+                    website.</p>
+            </div>
+            <div class="image">
+                <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/uday.png" alt="">
+            </div>
         </section>
 
-        <!-- ************* landing page *****************************-->
-
-        <section class="image-holder">
-            <h1 class="big-title" data-speed="0">Hi<span class="span1">,</span> I am<br>a Web Developer<span>.</span>
-            </h1>
-
-            <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/background" class="background translate"
-                data-speed="0.1" alt="">
-            <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/layer.png" class="mountain translate"
-                data-speed="-0.2" alt="">
-            <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/foreground.png" class="foreground translate"
-                data-speed="-0.25" alt="">
-
+        <!--***************** projects *******************************-->
+        <section id="projects snap-item" class="projects flex-container ">
+            <h2 class="section-heading">Projects</h2>
+            <div class="projects-container flex-container snaps-inline">
+                <!-- **** Card1 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Car Showcase</h3>
+                        <p>A highly responsive website for showcasing a car's specifications (in this case ford
+                            mustang), an
+                            attempt to win Web decor organized by ACE MESCOE</p>
+                        <a href="https://github.com/mrcoder991/Car-Showcase-Web-decor-2021" title="GitHub Repo Link"
+                            target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://udaygirhepunje.me/Car-Showcase-Web-decor-2021/" title="View Project Demo"
+                            target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <!-- **** Card2 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Animeto Food</h3>
+                        <p>Animeto food is a website for a food delivery business. Which was made from scratch, it was
+                            competition in which we had to write CSS for given HTML file</p>
+                        <a href="https://github.com/mrcoder991/AnimetoWebDesign2" title="GitHub Repo Link"
+                            target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://udaygirhepunje.me/AnimetoWebDesign2/" title="View Project Demo"
+                            target="blank">View
+                            Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <!-- **** Card3 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Personal Portfolio</h3>
+                        <p>This was my first portfolio as well as my first project in web development journey. Got so
+                            much
+                            to learn in this project. It was like Kickstarter to my journey.</p>
+                        <a href="https://github.com/mrcoder991/MyPortfolio" title="GitHub Repo Link" target="blank"><i
+                                class="fa fa-github"></i></a>
+                        <a href="https://udaygirhepunje.me/MyPortfolio" title="View Project Demo" target="blank">View
+                            Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <!-- **** Card4 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Designers Club</h3>
+                        <p>“dcmescoe.tech” the official website of Designer’s Club MESCOE, this was my first
+                            collaboration
+                            project and I have worked on the frontend of this website.</p>
+                        <a href="https://github.com/Designers-Club-MESCOE/Designers-Club-MESCOE.github.io"
+                            title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://dcmescoe.tech" title="View Project Demo" target="blank">View Project <i
+                                class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <!-- **** Card5 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Covid Diagnosis</h3>
+                        <p>It was made as 2nd year PBL project, made in “flask” as backend, it can suggest users weather
+                            or
+                            not they should go to doctor if they are sick.</p>
+                        <a href="https://github.com/mrcoder991/Covid-Diagnosis-app" title="GitHub Repo Link"
+                            target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://covid-diagnosis-app.herokuapp.com/" title="View Project Demo"
+                            target="blank">View
+                            Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <!-- **** Card6 **** -->
+                <div class="project-card">
+                    <div class="project-details">
+                        <h3>Merchstore</h3>
+                        <p>In the internship “Future ready talent” I had to make this Ecommerce site which is made with
+                            JavaScript and jQuery, hosted on Azure as a static webapp.</p>
+                        <a href="https://github.com/mrcoder991/MerchStore-EcommerceWebsite" title="GitHub Repo Link"
+                            target="blank"><i class="fa fa-github"></i></a>
+                        <a href="https://gentle-water-086875c00.1.azurestaticapps.net" title="View Project Demo"
+                            target="blank">View Project <i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
         </section>
-    </header>
 
-    <!--******************** about me  **************************-->
-
-    <section class="about translate" data-speed="-0.25" id="about">
-        <div class="text">
-            <h2>About me</h2>
-            <p>I am a computer engineering student passionate about Web Development and Graphics Design. I often make
-                graphics and put them together with best possible typography and colors and result is a beautiful
-                website.</p>
-        </div>
-        <div class="image">
-            <img src="https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/uday.png" alt="">
-        </div>
-    </section>
-
-    <!--***************** projects *******************************-->
-
-    <section id="projects" class="projects flex-container ">
-        <h2 class="section-heading">Projects</h2>
-        <div class="projects-container flex-container snaps-inline">
-
-            <!-- **** Card1 **** -->
-            <div class="project-card">
-                <div class="project-details">
-                    <h3>Car Showcase</h3>
-                    <p>A highly responsive website for showcasing a car's specifications (in this case ford mustang), an
-                        attempt to win Web decor organized by ACE MESCOE</p>
-                    <a href="https://github.com/mrcoder991/Car-Showcase-Web-decor-2021" title="GitHub Repo Link"
-                        target="blank"><i class="fa fa-github"></i></a>
-                    <a href="https://udaygirhepunje.me/Car-Showcase-Web-decor-2021/" title="View Project Demo"
-                        target="blank">View Project <i class="fa fa-external-link"></i></a>
+        <!-- ******************** Experience ******************** -->
+        <section class="experince snaps-inline" id="experince">
+            <h2 class="section-heading">Experience</h2>
+            <div class="experince-container">
+                <!-- role 1 -->
+                <div class="exp">
+                    <h5>Oct 2021 - Jan 2022</h5>
+                    <h3>Future ready talent | Microsoft</h3>
+                    <h4>Cloud computing Internship</h4>
+                    <p>Future Ready Talent is a virtual internship platform for students with an opportunity to learn
+                        the
+                        in-demand technology skills and work towards solving real world problem using the power of
+                        Microsoft
+                        Azure & GitHub tools.</p>
+                </div>
+                <!-- role 2 -->
+                <div class="exp">
+                    <h5>Sept 2020 - Present</h5>
+                    <h3>GDSC MESCOE</h3>
+                    <h4>Developer</h4>
+                    <p>Participated in events like Solution challenge, 30 days of google cloud and android study jam
+                        organized by Google Developer students club </p>
+                </div>
+                <!-- role 3 -->
+                <div class="exp">
+                    <h5>Nov 2020 - Present</h5>
+                    <h3>IIC-MESCOE</h3>
+                    <h4>Student Member, IIC-MESCOE Startup Cell</h4>
+                    <p>Voluntereed in Webinars, Workshops on startup and Entreprenuership growth organized by IIC-MESCOE
+                    </p>
+                </div>
+                <!-- role 2 -->
+                <div class="exp">
+                    <h5>May 2021 - Present </h5>
+                    <h3>Designers' Club MESCOE</h3>
+                    <h4>Social Media Head</h4>
+                    <p>Managing social handles and creating content for same. Also I'm Web Design Tutor for Club </p>
+                </div>
+                <!-- role 4 -->
+                <div class="exp">
+                    <h5>June 2021 - Present</h5>
+                    <h3>Nakshatra Club MESCOE</h3>
+                    <h4>Social Media Head</h4>
+                    <p>Managing social media handles, and the club aims to nurture students and expose them to a
+                        completely
+                        new field of astronomy and astrophysics.</p>
+                </div>
+                <!-- role 4 -->
+                <div class="exp">
+                    <h5>Jan 2022 - Present</h5>
+                    <h3>Techne Club MESCOE</h3>
+                    <h4>Social Media Head</h4>
+                    <p>Looking after the social media content creation and handling</p>
                 </div>
             </div>
+        </section>
 
-            <!-- **** Card2 **** -->
-            <div class="project-card">
-                <div class="project-details">
-                    <h3>Animeto Food</h3>
-                    <p>Animeto food is a website for a food delivery business. Which was made from scratch, it was
-                        competition in which we had to write CSS for given HTML file</p>
-                    <a href="https://github.com/mrcoder991/AnimetoWebDesign2" title="GitHub Repo Link" target="blank"><i
-                            class="fa fa-github"></i></a>
-                    <a href="https://udaygirhepunje.me/AnimetoWebDesign2/" title="View Project Demo" target="blank">View
-                        Project <i class="fa fa-external-link"></i></a>
+        <!-- ********************  skills ************************ -->
+        <section class="flex-container skills snap-item" id="skills">
+            <h2 class="section-heading">Skills</h2>
+            <div class="skills-container flex-container">
+                <!-- skill 1 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-python"></i></a>
+                    <p>Python</p>
+                </div>
+                <!-- skill 2 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-html5"></i></a>
+                    <p>HTML5</p>
+                </div>
+                <!-- skill 3 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-css3"></i></a>
+                    <p>CSS3</p>
+                </div>
+                <!-- skill 4 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-js"></i></a>
+                    <p>JavaScript</p>
+                </div>
+                <!-- skill 5 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-react"></i></a>
+                    <p>React</p>
+                </div>
+                <!-- skill 6 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-git"></i></a>
+                    <p>Git & GitHub</p>
+                </div>
+                <!-- skill 7 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fas fa-database"></i></a>
+                    <p>MySQL, MongoDB</p>
+                </div>
+                <!-- skill 8 -->
+                <div class="skill-card">
+                    <a href="#"><i class="fab fa-figma"></i></a>
+                    <p>Figma</p>
                 </div>
             </div>
+        </section>
 
-            <!-- **** Card3 **** -->
-            <div class="project-card">
-                <div class="project-details">
-                    <h3>Personal Portfolio</h3>
-                    <p>This was my first portfolio as well as my first project in web development journey. Got so much
-                        to learn in this project. It was like Kickstarter to my journey.</p>
-                    <a href="https://github.com/mrcoder991/MyPortfolio" title="GitHub Repo Link" target="blank"><i
-                            class="fa fa-github"></i></a>
-                    <a href="https://udaygirhepunje.me/MyPortfolio" title="View Project Demo" target="blank">View
-                        Project <i class="fa fa-external-link"></i></a>
-                </div>
-            </div>
+        <!-- ******************** contact ************************ -->
+        <section class="contact-section flex-container snap-item" id="contact">
+            <h2 class="section-heading">Let's get in contact <span> !</span></h2>
+            <div class="flex-container contact-holder">
+                <div class="contact-details">
+                    <i class="fa fa-user"><a href="#"> Uday Girhepunje</a></i><br>
+                    <i class="fas fa-envelope"><a href="#"> udaygirhepunje41@gmail.com</a></i><br>
+                    <i class="fas fa-compass"><a href="#"> Pune, India</a></i>
 
-            <!-- **** Card4 **** -->
-            <div class="project-card">
-                <div class="project-details">
-                    <h3>Designers Club</h3>
-                    <p>“dcmescoe.tech” the official website of Designer’s Club MESCOE, this was my first collaboration
-                        project and I have worked on the frontend of this website.</p>
-                    <a href="https://github.com/Designers-Club-MESCOE/Designers-Club-MESCOE.github.io"
-                        title="GitHub Repo Link" target="blank"><i class="fa fa-github"></i></a>
-                    <a href="https://dcmescoe.tech" title="View Project Demo" target="blank">View Project <i
-                            class="fa fa-external-link"></i></a>
-                </div>
-            </div>
-
-            <!-- **** Card5 **** -->
-            <div class="project-card">
-                <div class="project-details">
-                    <h3>Covid Diagnosis</h3>
-                    <p>It was made as 2nd year PBL project, made in “flask” as backend, it can suggest users weather or
-                        not they should go to doctor if they are sick.</p>
-                    <a href="https://github.com/mrcoder991/Covid-Diagnosis-app" title="GitHub Repo Link"
-                        target="blank"><i class="fa fa-github"></i></a>
-                    <a href="https://covid-diagnosis-app.herokuapp.com/" title="View Project Demo" target="blank">View
-                        Project <i class="fa fa-external-link"></i></a>
-                </div>
-            </div>
-
-            <!-- **** Card6 **** -->
-            <div class="project-card">
-                <div class="project-details">
-                    <h3>Merchstore</h3>
-                    <p>In the internship “Future ready talent” I had to make this Ecommerce site which is made with
-                        JavaScript and jQuery, hosted on Azure as a static webapp.</p>
-                    <a href="https://github.com/mrcoder991/MerchStore-EcommerceWebsite" title="GitHub Repo Link"
-                        target="blank"><i class="fa fa-github"></i></a>
-                    <a href="https://gentle-water-086875c00.1.azurestaticapps.net" title="View Project Demo"
-                        target="blank">View Project <i class="fa fa-external-link"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ******************** Experience ******************** -->
-    <section class="experince" id="experince">
-        <h2 class="section-heading">Experience</h2>
-        <div class="experince-container">
-
-            <!-- role 1 -->
-            <div class="exp">
-                <h5>Oct 2021 - Jan 2022</h5>
-                <h3>Future ready talent | Microsoft</h3>
-                <h4>Cloud computing Internship</h4>
-                <p>Future Ready Talent is a virtual internship platform for students with an opportunity to learn the
-                    in-demand technology skills and work towards solving real world problem using the power of Microsoft
-                    Azure & GitHub tools.</p>
-            </div>
-
-            <!-- role 2 -->
-            <div class="exp">
-                <h5>Sept 2020 - Present</h5>
-                <h3>GDSC MESCOE</h3>
-                <h4>Developer</h4>
-                <p>Participated in events like Solution challenge, 30 days of google cloud and android study jam
-                    organized by Google Developer students club </p>
-            </div>
-
-            <!-- role 3 -->
-            <div class="exp">
-                <h5>Nov 2020 - Present</h5>
-                <h3>IIC-MESCOE</h3>
-                <h4>Student Member, IIC-MESCOE Startup Cell</h4>
-                <p>Voluntereed in Webinars, Workshops on startup and Entreprenuership growth organized by IIC-MESCOE</p>
-            </div>
-
-            <!-- role 2 -->
-            <div class="exp">
-                <h5>May 2021 - Present </h5>
-                <h3>Designers' Club MESCOE</h3>
-                <h4>Social Media Head</h4>
-                <p>Managing social handles and creating content for same. Also I'm Web Design Tutor for Club </p>
-            </div>
-
-            <!-- role 4 -->
-            <div class="exp">
-                <h5>June 2021 - Present</h5>
-                <h3>Nakshatra Club MESCOE</h3>
-                <h4>Social Media Head</h4>
-                <p>Managing social media handles, and the club aims to nurture students and expose them to a completely
-                    new field of astronomy and astrophysics.</p>
-            </div>
-
-            <!-- role 4 -->
-            <div class="exp">
-                <h5>Jan 2022 - Present</h5>
-                <h3>Techne Club MESCOE</h3>
-                <h4>Social Media Head</h4>
-                <p>Looking after the social media content creation and handling</p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ********************  skills ************************ -->
-    <section class="flex-container skills" id="skills">
-        <h2 class="section-heading">Skills</h2>
-        <div class="skills-container flex-container">
-            <!-- skill 1 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-python"></i></a>
-                <p>Python</p>
-            </div>
-
-            <!-- skill 2 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-html5"></i></a>
-                <p>HTML5</p>
-            </div>
-
-            <!-- skill 3 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-css3"></i></a>
-                <p>CSS3</p>
-            </div>
-
-            <!-- skill 4 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-js"></i></a>
-                <p>JavaScript</p>
-            </div>
-
-            <!-- skill 5 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-react"></i></a>
-                <p>React</p>
-            </div>
-
-            <!-- skill 6 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-git"></i></a>
-                <p>Git & GitHub</p>
-            </div>
-
-            <!-- skill 7 -->
-            <div class="skill-card">
-                <a href="#"><i class="fas fa-database"></i></a>
-                <p>MySQL, MongoDB</p>
-            </div>
-
-            <!-- skill 8 -->
-            <div class="skill-card">
-                <a href="#"><i class="fab fa-figma"></i></a>
-                <p>Figma</p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ******************** contact ************************ -->
-
-    <section class="contact-section flex-container" id="contact">
-        <h2 class="section-heading">Let's get in contact <span> !</span></h2>
-
-        <div class="flex-container contact-holder">
-            <div class="contact-details">
-                <i class="fa fa-user"><a href="#"> Uday Girhepunje</a></i><br>
-                <i class="fas fa-envelope"><a href="#"> udaygirhepunje41@gmail.com</a></i><br>
-                <i class="fas fa-compass"><a href="#"> Pune, India</a></i>
-                
-                <div class="icons">
-                    <a href="https://github.com/mrcoder991" target=”_blank”><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/uday-girhepunje-6958a21b8/" target=”_blank”><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/uday_699/" target=”_blank”><i class="fa fa-instagram"></i></a>
-                    <a href="https://twitter.com/UdayGirhepunje" target=”_blank”><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100009394355759" target=”_blank”><i class="fa fa-facebook"></i></a>
-                    <a href="mailto:udaygirhepunje41@gmail.com" target=”_blank”><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-
-            <div class="contact-form">
-                <form action="https://airform.io/udaygirhepunje41@gmail.com" id="contact-form" method="post">
-                    <h3>Contact me</h3>
-
-                    <div class="input-div">
-                        <input type="text" id="name" name="name" placeholder="" required >
-                        <span></span>
-                        <label for="name">Name</label>
+                    <div class="icons">
+                        <a href="https://github.com/mrcoder991" target=”_blank”><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/uday-girhepunje-6958a21b8/" target=”_blank”><i
+                                class="fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/uday_699/" target=”_blank”><i
+                                class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/UdayGirhepunje" target=”_blank”><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100009394355759" target=”_blank”><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="mailto:udaygirhepunje41@gmail.com" target=”_blank”><i class="fas fa-envelope"></i></a>
                     </div>
-
-                    <div class="input-div">
-                        <input type="email" id="email" name="email" placeholder="" required>
-                        <span></span>
-                        <label for="email">Email</label>
-                    </div>
-
-                    <div class="input-div">
-                        <input type="number" id="phone" name="phone" maxlength="10" placeholder="" required>
-                        <span></span>
-                        <label for="phone">Phone</label>
-                    </div>
-
-                    <div class="input-div">
-                        <input type="text" id="subject" name="subject" placeholder="" required>
-                        <span></span>
-                        <label for="subject">Subject</label>
-                    </div>
-
-                    <div class="input-div">
-                        <textarea name="message" id="messege" rows="5" placeholder=" "></textarea><br>
-                        <span class="textarea-span"></span>
-                        <label class="textarea-label" for="message">Messege</label>
-                    </div>
-
-                    <div class="pass">
-                        <button type="submit" form="contact-form" value="Submit">Submit</button>
-                    </div>
-
-                </form>
+                </div>
+                <div class="contact-form">
+                    <form action="https://airform.io/udaygirhepunje41@gmail.com" id="contact-form" method="post">
+                        <h3>Contact me</h3>
+                        <div class="input-div">
+                            <input type="text" id="name" name="name" placeholder="" required>
+                            <span></span>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-div">
+                            <input type="email" id="email" name="email" placeholder="" required>
+                            <span></span>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-div">
+                            <input type="number" id="phone" name="phone" maxlength="10" placeholder="" required>
+                            <span></span>
+                            <label for="phone">Phone</label>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" id="subject" name="subject" placeholder="" required>
+                            <span></span>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="input-div">
+                            <textarea name="message" id="messege" rows="5" placeholder=" "></textarea><br>
+                            <span class="textarea-span"></span>
+                            <label class="textarea-label" for="message">Messege</label>
+                        </div>
+                        <div class="pass">
+                            <button type="submit" form="contact-form" value="Submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
+        </section>
 
-    </section>
+        <!-- **************** footer ********************-->
+        <section class="snap-item">
+            <footer>
+                <p>Designed with &#10084;&#65039 by <a href="https://github.com/mrcoder991">Uday Girhepunje</a></p>
+                <p>all rights reserved</p>
+            </footer>
+        </section>
 
-    <!-- **************** footer ********************-->
 
-    <section>
-        <footer>
-            <p>Designed with &#10084;&#65039 by <a href="https://github.com/mrcoder991">Uday Girhepunje</a></p>
-            <p>all rights reserved</p>
-        </footer>
-    </section>
+    </div>
 
 
     <!-- ************** javascript *************** -->
@@ -348,6 +330,8 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
+    
 </body>
 
 </html>
