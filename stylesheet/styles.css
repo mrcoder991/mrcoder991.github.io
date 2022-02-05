@@ -43,7 +43,6 @@ body{
 
 @media only screen and (max-width: 680px){
   ::-webkit-scrollbar{
-    /* height: 0; */
     width: 0;
   }
 }
@@ -73,6 +72,7 @@ body{
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
+  scroll-behavior: smooth;
 }
 
 /* *********************** navbar css ***************** */
@@ -304,7 +304,7 @@ span {
 
 .snaps-inline{
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 1.8rem;
+  /* scroll-padding-inline: 1.8rem; */
 }
 
 .snaps-inline > *{
