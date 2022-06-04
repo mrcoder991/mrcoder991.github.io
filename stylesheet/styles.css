@@ -296,12 +296,12 @@ span {
 
 .projects-container{
   flex-wrap: nowrap;
+  justify-content: flex-start;
+  overscroll-behavior-inline: contain ;
   overflow-x: scroll;
   width: 80%;
   gap: 2rem;
   padding: 2rem;
-  justify-content: flex-start;
-  overscroll-behavior-inline: contain ;
 }
 
 .snaps-inline{
@@ -315,23 +315,33 @@ span {
 
 
 .project-card:nth-child(1){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1644310769594") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/NotionOfNetizen_-riy5a9pM.gif?tr=w-800") ;
 }
 .project-card:nth-child(2){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animetofood.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1644310751614") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/newsMonkey_nwHIfrgvK.gif?tr=w-800") ;
 }
 .project-card:nth-child(3){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/portfolio.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1644310738574") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/INotebook_e55s9M__h.png?tr=w-800") ;
 }
 .project-card:nth-child(4){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/designers.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1644310951225") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase.gif?tr=w-500") ;
 }
 .project-card:nth-child(5){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/Covidbot.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1644310783070") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animetofood.gif?tr=w-500") ;
 }
 .project-card:nth-child(6){
-  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/merchstore.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1644310886853") ;
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/portfolio.gif?tr=w-500") ;
 }
+.project-card:nth-child(7){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/designers.gif?tr=w-500") ;
+}
+.project-card:nth-child(8){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/Covidbot.gif?tr=w-500") ;
+}
+.project-card:nth-child(9){
+  background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/merchstore.gif?tr=w-500") ;
+}
+
 
 .project-card {
   background-size: cover;
@@ -364,7 +374,11 @@ span {
   font-weight: 500;
 }
 
-.project-details a {
+.project-card p a{
+  color: rgba(236, 216, 196, 0.8);
+}
+
+.project-details > a {
   text-decoration: none;
   padding: 0.3em 0.4em;
   display: inline-block;
@@ -377,7 +391,7 @@ span {
   transition: all 0.5s ease-out;
 }
 
-.project-details a:hover {
+.project-details > a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
