@@ -221,7 +221,7 @@ nav .links a {
   color: var(--secondary-accent);
 }
 
-span {
+.dot {
   color: #fc9c60;
   font-size: 1.5em;
 }
