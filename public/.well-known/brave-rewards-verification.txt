@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: udaygirhepunje.me
+Token: 7af03aebc309b974a65839c00bc153ab5766321ce59fec6e2370f90cfb5288d5
