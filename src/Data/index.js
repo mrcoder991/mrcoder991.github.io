@@ -49,6 +49,13 @@ export const projectsData = [
         backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/INotebook_e55s9M__h.png?tr=w-800"
     },
     {
+        title: "EnigmaDashboad",
+        description: "Enigma Dashboard is an react application to showcase whats possible with react and syncfusion components, it consists of 4 applications and 7 charts to visualize data. ",
+        repoLink: "https://github.com/mrcoder991/dashboard-app",
+        demoLink: "https://react-enigma-dashboard.netlify.app/",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/enigma_dashboard.gif?tr=w-800"
+    },
+    {
         title: "NEWS Website",
         description: "NewsMonkey is a NEWS website which relies on API by newsapi.org it has features like, categorical sorting, infinite scrolling and more. [free version of API only works on localhost 😿]",
         repoLink: "https://github.com/mrcoder991/news-app-InReact",
