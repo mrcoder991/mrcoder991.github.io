@@ -7,20 +7,20 @@ const Contact = () => {
             <h2 className="section-heading">Let's get in contact <span> !</span></h2>
             <div className="flex-container contact-holder">
                 <div className="contact-details">
-                    <i className="fa fa-user"><a href="#"> Uday Girhepunje</a></i><br/>
-                    <i className="fas fa-envelope"><a href="#"> udaygirhepunje41@gmail.com</a></i><br/>
-                    <i className="fas fa-compass"><a href="#"> Pune, India</a></i>
+                    <i className="fa fa-user"><a href="/"> Uday Girhepunje</a></i><br/>
+                    <i className="fas fa-envelope"><a href="/"> udaygirhepunje41@gmail.com</a></i><br/>
+                    <i className="fas fa-compass"><a href="/"> Pune, India</a></i>
 
                     <div className="icons">
-                        <a href="https://github.com/mrcoder991" target="_blank"><i className="fa fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/uday-girhepunje-6958a21b8/" target="_blank"><i
+                        <a href="https://github.com/mrcoder991" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/uday-girhepunje-6958a21b8/" target="_blank" rel="noreferrer"><i
                                 className="fa fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/uday_699/" target="_blank"><i
+                        <a href="https://www.instagram.com/uday_699/" target="_blank" rel="noreferrer"><i
                                 className="fa fa-instagram"></i></a>
-                        <a href="https://twitter.com/UdayGirhepunje" target="_blank"><i className="fa fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100009394355759" target="_blank"><i
+                        <a href="https://twitter.com/UdayGirhepunje" target="_blank" rel="noreferrer"><i className="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100009394355759" target="_blank" rel="noreferrer"><i
                                 className="fa fa-facebook"></i></a>
-                        <a href="mailto:udaygirhepunje41@gmail.com" target="_blank"><i className="fas fa-envelope"></i></a>
+                        <a href="mailto:udaygirhepunje41@gmail.com" target="_blank" rel="noreferrer"><i className="fas fa-envelope"></i></a>
                     </div>
                 </div>
                 <div className="contact-form">

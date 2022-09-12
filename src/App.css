@@ -218,6 +218,9 @@ nav .links a {
   text-shadow: 0 0 5px #9d4675;
   color: var(--secondary-accent);
 }
+.typing-text{
+  display: inline;
+}
 
 .dot {
   color: #fc9c60;
