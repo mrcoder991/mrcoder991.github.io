@@ -1,8 +1,8 @@
 import React from "react";
 
-const ProjectCard = ({demoLink, repoLink, description, title}) => {
+const ProjectCard = ({demoLink, repoLink, description, title, backgroundImg}) => {
   return (
-    <div className="project-card">
+    <div className="project-card" style={{backgroundImage: `url(${backgroundImg})`}}>
       <div className="project-details">
         <h3>{title}</h3>
         <p>

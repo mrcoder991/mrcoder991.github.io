@@ -315,7 +315,7 @@ nav .links a {
 }
 
 
-.project-card:nth-child(1){
+/* .project-card:nth-child(1){
   background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/NotionOfNetizen_-riy5a9pM.gif?tr=w-800") ;
 }
 .project-card:nth-child(2){
@@ -341,7 +341,7 @@ nav .links a {
 }
 .project-card:nth-child(9){
   background-image:url("https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/merchstore.gif?tr=w-500") ;
-}
+} */
 
 
 .project-card {

@@ -16,6 +16,7 @@ const Projects = () => {
                     repoLink={item.repoLink}
                     description={item.description}
                     title={item.title}
+                    backgroundImg={item.backgroundImg}
                     />
                 ))}
             </div>

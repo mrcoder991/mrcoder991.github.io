@@ -5,7 +5,6 @@ const Navbar = () => {
 
   const openNav = () => {
     setMobileNav(!mobileNav);
-    console.log(mobileNav);
   };
 
   const closeNav = () => {

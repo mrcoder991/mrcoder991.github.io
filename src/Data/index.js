@@ -4,54 +4,63 @@ export const projectsData = [
         description: "In the internship “Future ready talent” I had to make this Ecommerce site which is made with JavaScript and jQuery, hosted on Azure as a static webapp.",
         repoLink: "https://github.com/mrcoder991/MerchStore-EcommerceWebsite",
         demoLink: "https://gentle-water-086875c00.1.azurestaticapps.net",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/merchstore.gif?tr=w-500"
     },
     {
         title: "Covid Diagnosis",
         description: "It was made as 2nd year PBL project, made in “flask” as backend, it can suggest users weather or not they should go to doctor if they are sick.",
         repoLink: "https://github.com/mrcoder991/Covid-Diagnosis-app",
         demoLink: "https://covid-diagnosis-app.herokuapp.com/",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/Covidbot.gif?tr=w-500"
     },
     {
         title: "Designers Club",
         description: "“dcmescoe.tech” the official website of Designer’s Club MESCOE, this was my first collaboration project and I have worked on the frontend of this website.",
         repoLink: "https://github.com/Designers-Club-MESCOE/Designers-Club-MESCOE.github.io",
         demoLink: "https://dcmescoe.tech",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/designers.gif?tr=w-500"
     },
     {
         title: "Personal Portfolio",
         description: "This was my first portfolio as well as my first project in web development journey. Got so much to learn in this project. It was like Kickstarter to my journey.",
         repoLink: "https://github.com/mrcoder991/MyPortfolio",
         demoLink: "https://udaygirhepunje.me/MyPortfolio",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/portfolio.gif?tr=w-500"
     },
     {
         title: "Animeto Food",
         description: "Animeto food is a website for a food delivery business. Which was made from scratch, it was competition in which we had to write CSS for given HTML file",
         repoLink: "https://github.com/mrcoder991/AnimetoWebDesign2",
         demoLink: "https://udaygirhepunje.me/AnimetoWebDesign2/",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animetofood.gif?tr=w-500"
     },
     {
         title: "Car Showcase",
         description: "A highly responsive website for showcasing a car's specifications (in this case ford mustang), an attempt to win Web decor organized by ACE MESCOE",
         repoLink: "https://github.com/mrcoder991/Car-Showcase-Web-decor-2021",
         demoLink: "https://udaygirhepunje.me/Car-Showcase-Web-decor-2021/",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase.gif?tr=w-500"
     },
     {
         title: "iNotebook-InReact",
         description: "iNotebook-InReact was my first real life usecase project after I started learning react I learned fundamentals of MERN stack in this project and encounterd many errors.",
         repoLink: "https://github.com/mrcoder991/iNotebook-InReact",
         demoLink: "https://mycloudnotebook.herokuapp.com/",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/INotebook_e55s9M__h.png?tr=w-800"
     },
     {
         title: "NEWS Website",
         description: "NewsMonkey is a NEWS website which relies on API by newsapi.org it has features like, categorical sorting, infinite scrolling and more. [free version of API only works on localhost 😿]",
         repoLink: "https://github.com/mrcoder991/news-app-InReact",
         demoLink: "",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/newsMonkey_nwHIfrgvK.gif?tr=w-800"
     },
     {
         title: "Notion of Netizen",
         description: "Notion of netizen is an social media site for the students of MESCOE which I made in MERN stack as an hobby project in the vacations, I made it open source so anyone can help me improve it.",
         repoLink: "https://github.com/mrcoder991/MERN-social-media-app",
         demoLink: "https://notionofnetizen.herokuapp.com",
+        backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/NotionOfNetizen_-riy5a9pM.gif?tr=w-800"
     },
     
 
