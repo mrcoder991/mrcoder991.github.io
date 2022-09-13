@@ -24,21 +24,21 @@ export const projectsData = [
         title: "Personal Portfolio",
         description: "This was my first portfolio as well as my first project in web development journey. Got so much to learn in this project. It was like Kickstarter to my journey.",
         repoLink: "https://github.com/mrcoder991/MyPortfolio",
-        demoLink: "https://udaygirhepunje.me/MyPortfolio",
+        demoLink: "https://udaygirhepunje.live/MyPortfolio",
         backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/portfolio.gif?tr=w-500"
     },
     {
         title: "Animeto Food",
         description: "Animeto food is a website for a food delivery business. Which was made from scratch, it was competition in which we had to write CSS for given HTML file",
         repoLink: "https://github.com/mrcoder991/AnimetoWebDesign2",
-        demoLink: "https://udaygirhepunje.me/AnimetoWebDesign2/",
+        demoLink: "https://udaygirhepunje.live/AnimetoWebDesign2/",
         backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/animetofood.gif?tr=w-500"
     },
     {
         title: "Car Showcase",
         description: "A highly responsive website for showcasing a car's specifications (in this case ford mustang), an attempt to win Web decor organized by ACE MESCOE",
         repoLink: "https://github.com/mrcoder991/Car-Showcase-Web-decor-2021",
-        demoLink: "https://udaygirhepunje.me/Car-Showcase-Web-decor-2021/",
+        demoLink: "https://udaygirhepunje.live/Car-Showcase-Web-decor-2021/",
         backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/car_showcase.gif?tr=w-500"
     },
     {
