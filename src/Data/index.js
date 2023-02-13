@@ -17,7 +17,7 @@ export const projectsData = [
         title: "Designers Club",
         description: "“dcmescoe.tech” the official website of Designer’s Club MESCOE, this was my first collaboration project and I have worked on the frontend of this website.",
         repoLink: "https://github.com/Designers-Club-MESCOE/Designers-Club-MESCOE.github.io",
-        demoLink: "https://dcmescoe.tech",
+        demoLink: "https://designers-club-mescoe.vercel.app",
         backgroundImg: "https://ik.imagekit.io/nmtrlmn4bwh/MyPortfolio/designers.gif?tr=w-500"
     },
     {
