@@ -382,6 +382,7 @@ nav .links a {
 .project-details > a {
   text-decoration: none;
   padding: 0.3em 0.4em;
+  margin-right: 0.4em;
   display: inline-block;
   border: 1px solid var(--primary-accent);
   background-color: var(--primary-accent);
@@ -808,11 +809,13 @@ button:hover{
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
+  appearance: none;
   -webkit-appearance: none;
   margin: 0;
 }
 
 input[type=number] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 

@@ -93,56 +93,62 @@ export const experienceData = [
         description: "Voluntereed in Webinars, Workshops on startup and Entreprenuership growth organized by IIC-MESCOE",
     },
     {
-        duration: "May 2021 - Present",
+        duration: "May 2021 - June 2022",
         title: "Designers' Club MESCOE",
         role: "Social Media Head",
         description: "Managing social handles and creating content for same. Also I'm Web Design Tutor for Club ",
     },
     {
-        duration: "June 2021 - Present",
+        duration: "June 2021 - June 2022",
         title: "Nakshatra Club MESCOE",
         role: "Social Media Head",
         description: "Managing social media handles, and the club aims to nurture students and expose them to a completely new field of astronomy and astrophysics.",
     },
     {
-        duration: "Jan 2022 - Present",
+        duration: "Jan 2022 - Aug 2022",
         title: "Techne Club MESCOE",
         role: "Social Media Head",
         description: "Looking after the social media content creation and handling",
+    },
+    {
+        duration: "Oct 2022 - Mar 2023",
+        title: "AppDirect",
+        role: "Intern Engineer",
+        description: "Worked neck to neck with a team of software professionals in a highly Agile environment and contributed to Crypto payment connector and Checkout Improvements",
     },
 ]
 
 export const skillsData = [
     {
-        title: "Python",
-        icon:"fab fa-python"
+        title: "React",
+        icon: "fab fa-react"
     },
     {
-        title: "HTML5",
-        icon:"fab fa-html5"
-    },
-    {
-        title: "CSS3",
-        icon:"fab fa-css3"
+        title: "Node.Js",
+        icon: "fab fa-node-js"
     },
     {
         title: "JavaScript",
-        icon:"fab fa-js"
+        icon: "fab fa-js"
     },
     {
-        title: "React",
-        icon:"fab fa-react"
+        title: "Docker",
+        icon: "fab fa-docker"
+    },
+    {
+        title: "HTML5",
+        icon: "fab fa-html5"
+    },
+    {
+        title: "CSS3",
+        icon: "fab fa-css3"
     },
     {
         title: "Git & GitHub",
-        icon:"fab fa-git"
+        icon: "fab fa-git"
     },
     {
         title: "MySQL, MongoDB",
-        icon:"fas fa-database"
-    },
-    {
-        title: "Figma",
-        icon:"fab fa-figma"
+        icon: "fas fa-database"
     },
 ]
